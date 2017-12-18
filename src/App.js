@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
+
 
 
 class App extends Component {
@@ -7,11 +9,11 @@ class App extends Component {
     return (
       <div className="App">
        <div className="topnav">
-          <a href="#contact">Contact</a>
-          <a href="#music">Music</a>
-          <a href="#coding">Coding</a>
-          <a href="#news">About Me</a>
-          <a className="active" href="#home">Home</a>             
+          <Link to="/home">Home</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/music">Music</Link>
+          <Link to="/coding">Coding</Link>
+          <Link to="/aboutMe">About Me</Link>           
       </div>
       </div>
     );
