@@ -9,11 +9,11 @@ class Music extends Component {
     return (
       <div className="Music">
        <div className="topnav">
-       <Link to="/home">Home</Link>
        <Link to="/contact">Contact</Link>
        <Link to="/music">Music</Link>
        <Link to="/coding">Coding</Link>
-       <Link to="/aboutMe">About Me</Link>      
+       <Link to="/aboutMe">About Me</Link>  
+       <Link to="/home">Home</Link>  
       </div>
       <p>Music</p>
       </div>
