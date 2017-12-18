@@ -1,14 +1,20 @@
 body {
   margin:0;
-  background-color:#DB9A22; 
+  background-color:#F7DEB3; 
+}
+
+.iconStyle {
+  text-align: center;
 }
 
 .topnav {
+  font-weight: normal;
   overflow: hidden;
-  background-color: #DB9A22;
+  background-color: #9C2828;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  
 }
 
 .main {
@@ -21,17 +27,24 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px; 
 }
 
 .topnav a:hover {
   background-color: transparent;
-  color: #FFFFFF;
+  color: #FFEAE1;
 }
 
 .topnav a.active {
   background-color: #000000;
   color: white;
+}
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
 }
 
 

@@ -8,14 +8,16 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="AboutMe">
-       <div className="topnav">
-       <Link to="/contact">Contact</Link>
-       <Link to="/music">Music</Link>
-       <Link to="/coding">Coding</Link>
-       <Link to="/aboutMe">About Me</Link>  
-       <Link to="/home">Home</Link>        
+        <div className="topnav">
+          <Link to="/contact">Contact</Link>
+          <Link to="/music">Music</Link>
+          <Link to="/coding">Coding</Link>
+          <Link to="/aboutMe">About Me</Link>  
+          <Link to="/home">Home</Link>        
       </div>
-      <p>AboutMe</p>
+      <div className="main">
+        <p>AboutMe</p>
+      </div>
       </div>
     );
   }

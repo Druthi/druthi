@@ -54,13 +54,13 @@ Although there are stylistic differences, the basic elements of śruti (the rela
 Carnatic music is usually performed by a small ensemble of musicians, consisting of a principal performer (usually a vocalist), a melodic accompaniment (usually a violin), a rhythm accompaniment (usually a mridangam), and a tambura, which acts as a drone throughout the performance. Other typical instruments used in performances may include the ghatam, kanjira, morsing, venu flute, veena, and chitraveena. The most outstanding performances, and the greatest concentration of Carnatic musicians, are to be found in the city of Chennai.[3] Various festivals are held throughout India and abroad which mainly consist of Carnatic music performances, such as the Madras Music Season, which has been considered to be one of the world's largest cultural events.[4][5] </p>
       </div>
 
-     
-<SocialIcon url="https://twitter.com/DruthiPolisetty" /> 
-<SocialIcon url="https://www.facebook.com/Druthi-1445833588863024/" /> 
-<SocialIcon url="https://www.youtube.com/channel/UC1K7gTwxjnBHVH699md7Cow?view_as=subscriber" /> 
-<SocialIcon url="https://www.instagram.com/druthipolisetty/" /> 
-
-      </div>
+<div className="iconStyle">     
+  <span><SocialIcon url="https://twitter.com/DruthiPolisetty" /> </span>
+  <span><SocialIcon url="https://www.facebook.com/Druthi-1445833588863024/" /> </span> 
+  <span><SocialIcon url="https://www.youtube.com/channel/UC1K7gTwxjnBHVH699md7Cow?view_as=subscriber" /> </span>
+  <span><SocialIcon url="https://www.instagram.com/druthipolisetty/" /> </span>
+</div>
+</div>
     );
   }
 }
